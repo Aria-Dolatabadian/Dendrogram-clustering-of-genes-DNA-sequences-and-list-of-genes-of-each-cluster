@@ -3,7 +3,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.cluster.hierarchy import dendrogram, linkage
 
-
 # Read in gene sequences and their corresponding names from file
 with open('1249 DNA seq.fasta', 'r') as f:
     gene_data = [line.strip() for line in f if line.strip()]
