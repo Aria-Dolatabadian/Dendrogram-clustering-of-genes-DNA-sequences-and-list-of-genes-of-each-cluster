@@ -33,7 +33,6 @@ plt.ylabel('Distance', fontsize=15)
 dendrogram(Z, leaf_rotation=90., leaf_font_size=8., labels=sequence_names)
 plt.show()
 
-
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.cluster.hierarchy import dendrogram, linkage, fcluster
