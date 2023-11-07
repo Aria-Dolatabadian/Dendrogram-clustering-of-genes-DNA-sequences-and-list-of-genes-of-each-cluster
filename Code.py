@@ -58,6 +58,7 @@ for i in range(len(gene_sequences)):
         similarities[i, j] = similarity
         similarities[j, i] = similarity
 
+
 # Perform hierarchical clustering on the similarities
 Z = linkage(similarities, method='complete')
 
